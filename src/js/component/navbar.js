@@ -7,7 +7,7 @@ export const Navbar = () => {
     const { store, actions } = useContext(Context);
     return (
         <nav className="navbar navbar-light" style={{ background: "linear-gradient(to right, #000000, #111111)" }}>
-            <button className="btn btn-warning dropdown-toggle ms-auto mx-2 mb-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <button className="btn btn-warning dropdown-toggle ms-auto me-4 mt-1 mb-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 Favorites
             </button>
             <div className="dropdown-menu dropdown-menu-end p-2"> 
